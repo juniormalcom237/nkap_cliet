@@ -31,12 +31,12 @@ class NotificationItem extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   CircleAvatar(
-                    radius: 23,
+                    radius: 20,
                     backgroundColor: Colors.yellow,
                     backgroundImage: AssetImage(profileImage),
                   ),
                   SizedBox(
-                    width: 14,
+                    width: 11,
                   ),
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,

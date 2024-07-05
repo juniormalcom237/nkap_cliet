@@ -62,19 +62,19 @@ class OnboardingScreen extends StatelessWidget {
                               "Steady progress,",
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontSize: 26.sp,
+                                  fontSize: 20.sp,
                                   fontWeight: FontWeight.w700),
                             ),
                           ),
                           SizedBox(
-                            height: 0.5.h,
+                            height: 0.1.h,
                           ),
                           Container(
                             child: Text(
                               "without a mess",
                               style: TextStyle(
                                   color: Colors.black,
-                                  fontSize: 26.sp,
+                                  fontSize: 20.sp,
                                   fontWeight: FontWeight.w700),
                             ),
                           ),

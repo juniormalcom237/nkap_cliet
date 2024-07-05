@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 
 class TransactionListTile extends StatelessWidget {
@@ -27,12 +28,12 @@ class TransactionListTile extends StatelessWidget {
           subtitle: Text(
             "$amount FCFA",
             style: TextStyle(
-                fontSize: 17.sp,
+                fontSize: 14.sp,
                 color: Colors.blue,
                 fontWeight: FontWeight.w500),
           ),
           trailing: Text(
-            "22 Jul. 04:35",
+            DateFormat('yyyy-MM-dd – kk:mm').format(DateTime.now()),
             style: TextStyle(color: Colors.black45, fontSize: 16.sp),
           ),
         ),
